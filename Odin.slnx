@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Odin.API/Odin.API.csproj" />
+    <Project Path="src/Odin.Core/Odin.Core.csproj" />
+    <Project Path="src/Odin.Web/Odin.Web.csproj" />
+  </Folder>
+</Solution>

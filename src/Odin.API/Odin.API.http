@@ -1,0 +1,6 @@
+@Odin.API_HostAddress = http://localhost:5239
+
+GET {{Odin.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

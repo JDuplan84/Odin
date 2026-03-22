@@ -1,1 +1,58 @@
+# ── Prototype (do not commit) ─────────────────────────────────────────────────
 Exemple/
+
+# ── Claude Code ───────────────────────────────────────────────────────────────
+.claude/
+
+# ── .NET build outputs ────────────────────────────────────────────────────────
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# ── NuGet ─────────────────────────────────────────────────────────────────────
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ── User-specific Visual Studio / Rider files ─────────────────────────────────
+*.user
+*.userosscache
+*.suo
+*.userprefs
+.vs/
+.idea/
+*.DotSettings.user
+
+# ── Rider ─────────────────────────────────────────────────────────────────────
+.idea/
+
+# ── OS artefacts ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Test results ──────────────────────────────────────────────────────────────
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# ── Publish outputs ───────────────────────────────────────────────────────────
+publish/
+**/publish/
+
+# ── Node (for future Vite/npm frontend tooling) ───────────────────────────────
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+
+# ── Secrets (never commit) ────────────────────────────────────────────────────
+**/appsettings.*.local.json
+**/secrets.json

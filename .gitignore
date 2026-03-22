@@ -56,3 +56,6 @@ dist/
 # ── Secrets (never commit) ────────────────────────────────────────────────────
 **/appsettings.*.local.json
 **/secrets.json
+
+# ── Mutagen Documents (do not commit) ─────────────────────────────────────────────────
+Mutagen/ 

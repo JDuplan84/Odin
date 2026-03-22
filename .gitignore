@@ -46,12 +46,16 @@ coverage/
 publish/
 **/publish/
 
-# ── Node (for future Vite/npm frontend tooling) ───────────────────────────────
+# ── Node / Vite ───────────────────────────────────────────────────────────────
 node_modules/
 dist/
 .env
 .env.local
 .env.*.local
+
+# Vite build output (regenerated via `npm run build`) — do not commit
+src/Odin.Web/wwwroot/assets/
+src/Odin.Web/wwwroot/index.html
 
 # ── Secrets (never commit) ────────────────────────────────────────────────────
 **/appsettings.*.local.json

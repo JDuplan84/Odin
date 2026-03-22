@@ -1,0 +1,44 @@
+/* ── Design Tokens ───────────────────────────────────────────────────────── */
+:root {
+  --bg-primary:    #1a1a2e;
+  --bg-secondary:  #16213e;
+  --bg-surface:    #0f3460;
+  --accent-amber:  #e2b96f;
+  --accent-blue:   #4fc3f7;
+  --text-primary:  #e8e8e8;
+  --text-muted:    #9ca3af;
+  --border:        #2d3748;
+
+  --sidebar-width: 240px;
+  --header-height: 48px;
+}
+
+/* ── Reset ───────────────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #app {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Scrollbars ──────────────────────────────────────────────────────────── */
+::-webkit-scrollbar       { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--bg-surface); }
+
+/* ── Typography utilities ────────────────────────────────────────────────── */
+a { color: inherit; }
